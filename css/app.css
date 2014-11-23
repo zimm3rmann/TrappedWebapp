@@ -1,0 +1,78 @@
+@import url(headers.css);
+@font-face {
+    font-family: Antonio;
+    src: url(/fonts/Antonio-Bold.ttf);
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  background: #4D4E53;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+}
+
+p {
+  font-size: inherit;
+  color: whitesmoke;
+  padding-left: .5em;
+}
+
+#title {
+  font-family: Antonio;
+  font-weight: 800;
+  font-size: 2em;
+  color: white;
+  font-style: normal;
+}
+
+#currentShow {
+  color: #80DFED;
+}
+
+#nextShow {
+  color: #80DFED;
+}
+
+#listeners {
+  color: #80DFED;
+}
+
+
+#currentTrack {
+  line-height:1.4em;
+  height:2.8em;
+  overflow: hidden;
+  color: #80DFED;
+}
+
+#previousTrack {
+  line-height:1.4em;
+  height:2.8em;
+  overflow: hidden;
+  color: #80DFED;
+}
+
+* {
+  margin: 0;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -5em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 5em; 
+}
+.site-footer {
+  background: #242d33;
+}

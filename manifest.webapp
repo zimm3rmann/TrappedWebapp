@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "name": "Trapped",
+  "description": "Trapped Radio, the best of trap music.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Michael Zimmermann",
+    "url": "http://zimm3rmann.com"
+  },
+  "type": "privileged",
+  "permissions": {
+     "systemXHR": {
+     "description": "Used to load audio and track info from remote site"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+  },
+  "default_locale": "en"
+}
