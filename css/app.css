@@ -1,4 +1,5 @@
 @import url(headers.css);
+@import url(/gaia-icons/gaia-icons-embedded.css);
 @font-face {
     font-family: Antonio;
     src: url(/fonts/Antonio-Bold.ttf);
@@ -56,6 +57,12 @@ p {
   height:2.8em;
   overflow: hidden;
   color: #80DFED;
+}
+
+#player {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1em;
 }
 
 * {
